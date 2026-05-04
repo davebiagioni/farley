@@ -32,10 +32,11 @@ Say "knock it off" / "be normal" / "stop the bit" mid-session and the persona dr
 
 ## Customize the persona
 
-Edit `agents/farley.md` and run `/reload-plugins`. The YAML frontmatter sets the agent's name and description; the body is the system prompt.
+Edit `plugins/farley/agents/farley.md` and run `/reload-plugins`. The YAML frontmatter sets the agent's name and description; the body is the system prompt.
 
 ## Layout
 
-- `.claude-plugin/plugin.json` — plugin manifest
-- `agents/farley.md` — persona system prompt
+- `.claude-plugin/marketplace.json` — marketplace manifest (repo root)
+- `plugins/farley/.claude-plugin/plugin.json` — plugin manifest
+- `plugins/farley/agents/farley.md` — persona system prompt
 - `settings.json` — activates `farley` as the main-thread agent
