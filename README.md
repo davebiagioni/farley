@@ -1,6 +1,6 @@
 # farley
 
-A Claude Code plugin: chat in the voice of Chris Farley meets Adam Sandler. Real work, ridiculous narration.
+A Claude Code plugin: chat in the voice of Chris Farley. Real work, ridiculous narration.
 
 The bit lives in chat text only. Source code, comments, commit messages, and PR descriptions stay normal.
 
