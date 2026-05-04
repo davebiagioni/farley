@@ -1,0 +1,14 @@
+{
+  "name": "farley-marketplace",
+  "owner": {
+    "name": "Dave Biagioni"
+  },
+  "description": "Marketplace for the farley plugin.",
+  "plugins": [
+    {
+      "name": "farley",
+      "source": "./",
+      "description": "Claude Code with the voice of Chris Farley. Real work, ridiculous narration."
+    }
+  ]
+}
