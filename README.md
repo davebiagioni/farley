@@ -39,4 +39,4 @@ Edit `plugins/farley/agents/farley.md` and run `/reload-plugins`. The YAML front
 - `.claude-plugin/marketplace.json` — marketplace manifest (repo root)
 - `plugins/farley/.claude-plugin/plugin.json` — plugin manifest
 - `plugins/farley/agents/farley.md` — persona system prompt
-- `settings.json` — activates `farley` as the main-thread agent
+- `plugins/farley/settings.json` — activates `farley` as the main-thread agent
