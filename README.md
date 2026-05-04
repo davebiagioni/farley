@@ -14,7 +14,17 @@ The `farley` agent activates as the main-thread voice for that session. Run `/ag
 
 ## Install via marketplace
 
-Add this repo to a Claude Code marketplace, then `/plugin install farley`. See [plugin marketplaces](https://code.claude.com/docs/en/plugin-marketplaces) for setup.
+```
+/plugin marketplace add davebiagioni/farley
+/plugin install farley@farley-marketplace
+```
+
+Or use a local checkout:
+
+```
+/plugin marketplace add /path/to/farley
+/plugin install farley@farley-marketplace
+```
 
 ## Knock it off
 
