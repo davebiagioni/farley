@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "farley",
-      "source": "./",
+      "source": "./plugins/farley",
       "description": "Claude Code with the voice of Chris Farley. Real work, ridiculous narration."
     }
   ]
